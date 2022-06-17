@@ -7,6 +7,13 @@
   font-family: 'Roboto', Arial, sans-serif;
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #buttonMore {
   color: #5f6368;
   font-weight: bold;
@@ -59,7 +66,6 @@ main {
   margin: 0 auto;
   max-width: 1024px;
   width: 100%;
-  height: calc(100vh - 80px - 94px);
   display: flex;
   flex-direction: column;
 }
@@ -69,7 +75,7 @@ main {
 }
 
 #container {
-  margin-top: 200px;
+  margin-top: -150px;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -183,13 +189,8 @@ main {
   text-decoration: underline;
 }
 
-@media (max-height: 640px) {
-  main {
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  #container {
-    margin-top: 0;
+@media (max-width: 738px) {
+  #contentInferior {
+    flex-direction: column;
   }
 }
