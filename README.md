@@ -5,8 +5,8 @@ Used for the project:
 * **CSS**
 
 # **Preview Desktop**
-![img]()
+![img](./screenshots/DesktopPreview.png)
 
 # **Preview Mobile**
 
-![img]()
+![img](./screenshots/MobilePreview.png)
